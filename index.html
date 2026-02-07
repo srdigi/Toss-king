@@ -10,7 +10,7 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: 'Segoe UI', Arial, sans-serif;
+font-family:'Segoe UI',Arial,sans-serif;
 }
 
 body{
@@ -18,11 +18,15 @@ min-height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
+
+/* CRICKET STADIUM BACKGROUND */
 background:
-linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.9)),
-url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9Y");
+linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.85)),
+url("https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1950&q=80");
+
 background-size:cover;
 background-position:center;
+background-repeat:no-repeat;
 color:#fff;
 }
 
@@ -33,18 +37,18 @@ padding:20px;
 }
 
 .card{
-background:rgba(15,15,20,.85);
-border-radius:22px;
-padding:28px 22px;
+background:rgba(15,15,20,.88);
+border-radius:24px;
+padding:30px 22px;
 text-align:center;
-box-shadow:0 25px 50px rgba(0,0,0,.7);
-backdrop-filter:blur(6px);
+box-shadow:0 30px 60px rgba(0,0,0,.8);
+backdrop-filter:blur(8px);
 }
 
 h1{
 font-size:30px;
-letter-spacing:1px;
 font-weight:900;
+letter-spacing:1px;
 color:#ffcc00;
 }
 
@@ -56,8 +60,8 @@ opacity:.9;
 
 .badge{
 display:inline-block;
-margin:14px 0;
-padding:8px 16px;
+margin:16px 0;
+padding:8px 18px;
 background:linear-gradient(135deg,#ff9800,#ff5722);
 border-radius:30px;
 font-size:13px;
@@ -67,25 +71,26 @@ font-weight:700;
 .desc{
 font-size:14px;
 line-height:1.6;
-margin:16px 0 20px;
+margin:18px 0 22px;
 opacity:.95;
 }
 
 .stats{
 display:flex;
 gap:12px;
-margin-bottom:22px;
+margin-bottom:24px;
 }
 
 .stat{
 flex:1;
 background:linear-gradient(135deg,#2196f3,#0d47a1);
-border-radius:16px;
+border-radius:18px;
 padding:16px 10px;
 }
 
 .stat h2{
 font-size:22px;
+font-weight:800;
 }
 
 .stat p{
@@ -96,7 +101,7 @@ opacity:.9;
 .join a{
 display:block;
 padding:18px;
-border-radius:16px;
+border-radius:18px;
 background:linear-gradient(135deg,#00e676,#00c853);
 color:#000;
 font-size:18px;
@@ -116,7 +121,6 @@ margin-top:16px;
 font-size:12px;
 opacity:.75;
 }
-
 </style>
 </head>
 
@@ -131,19 +135,19 @@ opacity:.75;
 <div class="badge">Premium Cricket Community</div>
 
 <div class="desc">
-WPL & Under-19 World Cup match discussions  
-• Pre-match insights  
-• Community analysis  
+🏏 World Cup T20 & IPL discussions  
+• Match talk & pre-match analysis  
+• Community insights  
 • Entertainment purpose only
 </div>
 
 <div class="stats">
 <div class="stat">
-<h2>WPL</h2>
+<h2>T20 WC</h2>
 <p>Coverage</p>
 </div>
 <div class="stat">
-<h2>U-19 WC</h2>
+<h2>IPL</h2>
 <p>Coverage</p>
 </div>
 </div>
@@ -155,7 +159,7 @@ WPL & Under-19 World Cup match discussions
 </div>
 
 <div class="note">
-No betting • No guarantees • For discussion & entertainment
+No betting • No guarantees • For discussion & entertainment only
 </div>
 
 </div>
